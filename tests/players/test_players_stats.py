@@ -14,6 +14,7 @@ def test_players_profile_id_0():
 
 
 def test_players_profile_id_3373():
+    a=3
     tfmkt = TransfermarktPlayerStats(player_id="3373")
     result = tfmkt.get_player_stats()
     last_update = result.pop("lastUpdate")
